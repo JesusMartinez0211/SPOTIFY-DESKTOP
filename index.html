@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Spotify</title>
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <meta http-equiv="Content-Security-Policy" content="script-src 'self' 'unsafe-inline';" />
+</head>
+
+<body>
+    <div class="container">
+        <div class="left">
+            <div style="height:20px"></div>
+            <div class="menu">
+                <ul>
+                    <li>
+                        <a href="https://open.spotify.com">
+                            <img src="assets/Home.svg" alt="" class="gray-filtered">
+                            <span>Home</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="assets/Search.svg" alt="" class="gray-filtered">
+                            <span>Search</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="assets/YourLibrary.svg" alt="" class="gray-filtered">
+                            <span>Your Library</span>
+                        </a>
+                    </li>
+                    <div style="height:30px"></div>
+                    <li>
+                        <a href="#">
+                            <img src="assets/CreatePlaylist.svg" alt="" class="gray-filtered">
+                            <span>Create Playlist</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://open.spotify.com/collection/tracks">
+                            <img src="assets/Like.svg" alt="" class="gray-filtered">
+                            <span>Liked Songs</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <hr width="100%">
+
+            <div style="height: 20px;"></div>
+            <div class="menu playlists">
+                <ul>
+
+                    <li>
+                        <a href="#">
+                            <span>Pretty Boy, Dirty Boy</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span>Kris R.</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span>Cris Valencia</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span>Blessd</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span>Arcangel</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span>Ryan Castro</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span>FDSR</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span>CUMBIAS BUCARAMANGA</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span>Kendrick Lamar</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span>Eladio Carrion</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="current-song-cover">
+                <img src="images/song-cover.jpeg" alt="">
+            </div>
+
+
+        </div>
+        <div class="right">
+            <div class="playlist-header">
+                <div class="playlist-top">
+                    <div class="playlist-arrows">
+                        <div class="arrow-container">
+                            <img src="assets/LeftArrow.svg" alt="">
+                        </div>
+                        <div class="arrow-container">
+                            <img src="assets/RightArrow.svg" alt="">
+                        </div>
+                    </div>
+                    <div class="playlist-top-email">
+                        <div class="arrow-container">
+                            <img src="assets/Profile.svg" alt="">
+                        </div>
+                        <span>Lgsus</span>
+
+                    </div>
+                </div>
+                <div class="playlist-content">
+                    <div class="playlist-cover">
+                        <img src="images/playlist-cover.png" alt="">
+                    </div>
+                    <div class="playlist-info">
+                        <div class="playlist-public"> PUBLIC PLAYLIST</div>
+                        <div class="playlist-title">Pretty Boy, Dirty Boy</div>
+                        <div style="height: 10px;"></div>
+                        <div class="playlist-stats">
+                            <img src="assets/maluma-logo.png" width="30px" height="30px" alt="">
+                            <span> Maluma ·</span>
+                            <span>2015 · </span>
+                            <span>5 songs · </span>
+                            <span>16 min 47 s </span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="playlist-songs-container">
+                <div class="playlist-buttons">
+                    <div class="playlist-buttons-left">
+                        <div class="playlist-buttons-resume-pause">
+                            <img src="assets/Pause.svg" alt="">
+                        </div>
+                        <div class="playlist-buttons-like">
+                            <img src="assets/FiiledLike.svg" alt="" class="spotify-color">
+                        </div>
+                        <div class="playlist-buttons-download">
+                            <img src="assets/Download.svg" alt="">
+                        </div>
+                        <div class="playlist-buttons-three-dot">
+                            <img src="assets/ThreeDots.svg" alt="">
+                        </div>
+                    </div>
+                    <div class="playlist-buttons-right">
+                        <div class="playlist-buttons-search">
+                            <img src="assets/Search.svg" alt="">
+                        </div>
+                        <div class="playlist-buttons-order">
+                            Custom Order
+                        </div>
+                    </div>
+                </div>
+                <div class="playlist-songs">
+                    <table>
+                        <tr>
+                            <th>#</th>
+                            <th>Title</th>
+                            <th>Album</th>
+                            <th>Date Added</th>
+                            <th>
+                                <img src="assets/Duration.svg" alt="">
+                            </th>
+                        </tr>
+                        <tr>
+                            <td>1</td>
+                            <td class="song-title">
+                                <div class="song-image">
+                                    <img src="images/song-cover.jpeg" alt="">
+                                </div>
+                                <div class="song-name-album">
+                                    <div class="song-name">Borro Cassette</div>
+                                    <div class="song-artist">Maluma</div>
+                                </div>
+                            </td>
+                            <td class="song-album">Pretty Boy, Dirty Boy</td>
+                            <td class="song-date-added">Aug 28, 2015</td>
+                            <td class="song-duration">
+                                3:27
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>2</td>
+                            <td class="song-title">
+                                <div class="song-image">
+                                    <img src="images/song-cover.jpeg" alt="">
+                                </div>
+                                <div class="song-name-album">
+                                    <div class="song-name">¿Dónde Estás?(feat.Farruko)</div>
+                                    <div class="song-artist">Maluma, Farruko</div>
+                                </div>
+                            </td>
+                            <td class="song-album">Pretty Boy, Dirty Boy</td>
+                            <td class="song-date-added">Aug 28, 2015</td>
+                            <td class="song-duration">
+                                3:17
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td class="song-title">
+                                <div class="song-image">
+                                    <img src="images/song-cover.jpeg" alt="">
+                                </div>
+                                <div class="song-name-album">
+                                    <div class="song-name">El Perdedor</div>
+                                    <div class="song-artist">Maluma</div>
+                                </div>
+                            </td>
+                            <td class="song-album">Pretty Boy, Dirty Boy</td>
+                            <td class="song-date-added">Aug 28, 2015</td>
+                            <td class="song-duration">
+                                3:26
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>4</td>
+                            <td class="song-title">
+                                <div class="song-image">
+                                    <img src="images/song-cover.jpeg" alt="">
+                                </div>
+                                <div class="song-name-album">
+                                    <div class="song-name">Me Gustas</div>
+                                    <div class="song-artist">Maluma</div>
+                                </div>
+                            </td>
+                            <td class="song-album">Pretty Boy, Dirty Boy</td>
+                            <td class="song-date-added">Aug 28, 2015</td>
+                            <td class="song-duration">
+                                3:36
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>5</td>
+                            <td class="song-title">
+                                <div class="song-image">
+                                    <img src="images/song-cover.jpeg" alt="">
+                                </div>
+                                <div class="song-name-album">
+                                    <div class="song-name">Sin Contrato</div>
+                                    <div class="song-artist">Maluma</div>
+                                </div>
+                            </td>
+                            <td class="song-album">Pretty Boy, Dirty Boy</td>
+                            <td class="song-date-added">Aug 28, 2015</td>
+                            <td class="song-duration">
+                                3:41
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer-player">
+        <div class="footer-player-left">
+            <div class="footer-player-left-song">
+                <div class="footer-player-left-song-name">Borro Cassette</div>
+                <div class="footer-player-left-song-artist">Maluma</div>
+            </div>
+            <div class="footer-player-left-like">
+                <img src="assets/FiiledLike.svg" alt="" class="spotify-color" style="height: 18px; width: 18px;">
+            </div>
+        </div>
+        <div class="footer-player-middle">
+            <div class="footer-player-middle-buttons">
+                <img src="assets/Shuffle.svg" alt="" class="gray-filtered">
+                <img src="assets/Previous.svg" alt="" class="gray-filtered">
+                <span class="pause-button">
+                    <img src="assets/Pause.svg" alt="">
+                </span>
+                <img src="assets/Next.svg" alt="" class="gray-filtered">
+                <img src="assets/Repeat.svg" alt="" class="gray-filtered">
+            </div>
+            <div class="footer-player-middle-slider">
+                <div class="player-time">0:00</div>
+                <div class="player-slider">
+                    <input type="range" min="1" max="100" value="30">
+                </div>
+                <div class="player-time">3:27</div>
+            </div>
+        </div>
+        <div class="footer-player-right">
+            <div class="footer-player-right-buttons">
+                <img src="assets/Lyrics.svg" alt="">
+                <img src="assets/Queue.svg" class="filtered-img" alt="">
+                <img src="assets/Connect to a device.svg" class="filtered-img" alt="">
+                <img src="assets/Volume.svg" class="filtered-img" alt="">
+                <div class="player-slider" style="margin-right: 20px; width: 200px;">
+                    <input type="range" min="1" max="100" value="30" style="width:75px; position: relative; top:-5px;">
+                </div>
+                <img src="assets/Full screen.svg" class="filtered-img" alt="">
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
